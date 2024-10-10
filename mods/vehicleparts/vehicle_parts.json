@@ -1,0 +1,370 @@
+[
+  {
+    "copy-from": "bed",
+    "id": "warp_bed",
+    "type": "vehicle_part",
+    "name": { "str": "転移ベッド" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "aisle",
+    "id": "warp_aisle",
+    "type": "vehicle_part",
+    "name": { "str": "転移通路" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "trunk_floor",
+    "id": "warp_trunk_floor",
+    "type": "vehicle_part",
+    "name": { "str": "転移トランクフロア" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "roof",
+    "id": "warp_roof",
+    "type": "vehicle_part",
+    "name": { "str": "転移ルーフ" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "hdroof",
+    "id": "warp_hdroof",
+    "type": "vehicle_part",
+    "name": { "str": "転移ルーフ(高耐久)" },
+    "item": "reinforced_warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "trunk",
+    "id": "warp_trunk",
+    "type": "vehicle_part",
+    "name": { "str": "転移トランク" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "trunk_sedan",
+    "id": "warp_trunk_sedan",
+    "type": "vehicle_part",
+    "name": { "str": "転移セダン用トランク" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "veh_table",
+    "id": "warp_veh_table",
+    "type": "vehicle_part",
+    "name": { "str": "転移テーブル" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "carbonfiber_boat_hull",
+    "id": "warp_carbonfiber_boat_hull",
+    "type": "vehicle_part",
+    "name": { "str": "転移船体" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 3 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "controls",
+    "id": "warp_controls",
+    "type": "vehicle_part",
+    "name": { "str": "転移制御装置" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "dashboard",
+    "id": "warp_dashboard",
+    "type": "vehicle_part",
+    "name": { "str": "転移ダッシュボード" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "mountable_heater",
+    "id": "warp_mountable_heater",
+    "type": "vehicle_part",
+    "name": { "str": "転移車載ヒーター" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "mountable_cooler",
+    "id": "warp_mountable_cooler",
+    "type": "vehicle_part",
+    "name": { "str": "転移車載クーラー" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "controls_electronic",
+    "id": "warp_controls_electronic",
+    "type": "vehicle_part",
+    "name": { "str": "転移電子制御ユニット" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "muffler",
+    "id": "warp_muffler",
+    "type": "vehicle_part",
+    "name": { "str": "転移マフラー" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "seatbelt",
+    "id": "warp_seatbelt",
+    "type": "vehicle_part",
+    "name": { "str": "転移シートベルト" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "water_faucet",
+    "id": "warp_water_faucet",
+    "type": "vehicle_part",
+    "name": { "str": "転移蛇口" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "horn_car",
+    "id": "warp_horn_car",
+    "type": "vehicle_part",
+    "name": { "str": "転移クラクション" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "cargo_space",
+    "id": "warp_cargo_space",
+    "type": "vehicle_part",
+    "name": { "str": "転移カーゴスペース" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "livestock_stall",
+    "id": "warp_livestock_stall",
+    "type": "vehicle_part",
+    "name": { "str": "転移家畜運搬カーゴ" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "stereo",
+    "id": "warp_stereo",
+    "type": "vehicle_part",
+    "name": { "str": "転移ステレオシステム" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "cargo_lock",
+    "id": "warp_cargo_lock",
+    "type": "vehicle_part",
+    "name": { "str": "転移カーゴロック" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "door_lock",
+    "id": "warp_door_lock",
+    "type": "vehicle_part",
+    "name": { "str": "転移ドアロック" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  }
+]

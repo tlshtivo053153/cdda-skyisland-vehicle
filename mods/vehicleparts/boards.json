@@ -1,0 +1,66 @@
+[
+  {
+    "id": "warp_board",
+    "type": "vehicle_part",
+    "copy-from": "board",
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "name": { "str": "転移パネル" },
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_halfboard",
+    "copy-from": "halfboard",
+    "type": "vehicle_part",
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "name": { "str": "転移クォーターパネル" },
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_hdboard",
+    "type": "vehicle_part",
+    "copy-from": "hdboard",
+    "item": "reinforced_warp_frame",
+    "breaks_into": [ ],
+    "name": { "str": "転移パネル(高耐久)" },
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_hdhalfboard",
+    "copy-from": "hdhalfboard",
+    "type": "vehicle_part",
+    "item": "reinforced_warp_frame",
+    "breaks_into": [ ],
+    "name": { "str": "転移クォーターパネル(高耐久)" },
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  }
+]

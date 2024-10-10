@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "warp_coal",
+    "name": "転移燃料",
+    "default": "warp_coal"
+  }
+]

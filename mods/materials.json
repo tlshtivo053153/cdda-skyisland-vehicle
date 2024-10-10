@@ -1,0 +1,23 @@
+[
+  {
+    "type": "material",
+    "id": "warp_coal",
+    "name": "転移燃料",
+    "copy-from": "wood",
+    "repaired_with": "null",
+    "burn_data": [
+      { "fuel": 10, "smoke": 0.1, "burn": 0.1 },
+      { "fuel": 20, "smoke": 0.2, "burn": 0.2 },
+      { "fuel": 30, "smoke": 0.3, "burn": 0.3 }
+    ],
+    "fuel_data": { "energy": "312000 kJ" },
+    "density": 0.931
+  },
+  {
+    "type": "material",
+    "id": "warp_obsidian",
+    "name": "転移黒曜石",
+    "copy-from": "stone",
+    "repaired_with": "warp_coal"
+  }
+]

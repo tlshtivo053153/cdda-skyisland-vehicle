@@ -1,0 +1,14 @@
+[
+  {
+    "id": "warp_wheel_wide",
+    "copy-from": "wheel_wide",
+    "type": "WHEEL",
+    "name": { "str": "転移ホイール" },
+    "weight": "1 g",
+    "description": "黒曜石のような素材でできたホイールです。タイヤはゴムのような弾力があり車両のホイールとして使えそうです。",
+    "material": [ "warp_obsidian" ],
+    "price": "0 USD",
+    "price_postapoc": "0 USD",
+    "melee_damage": { "bash": 1 }
+  }
+]

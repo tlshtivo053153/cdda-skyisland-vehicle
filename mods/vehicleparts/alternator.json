@@ -1,0 +1,18 @@
+[
+  {
+    "id": "warp_generator_7500w",
+    "copy-from": "generator_7500w",
+    "type": "vehicle_part",
+    "name": { "str": "転移発電機" },
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 3 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  }
+]

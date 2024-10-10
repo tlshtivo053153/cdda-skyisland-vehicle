@@ -1,0 +1,21 @@
+[
+  {
+    "id": "warp_spring_plate",
+    "type": "vehicle_part",
+    "copy-from": "spring_plate",
+    "name": { "str": "転移緩衝装置" },
+    "item": "warp_frame",
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "looks_like": "spring_plate",
+    "breaks_into": [ ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    },
+    "flags": [ "ARMOR", "SHOCK_ABSORBER" ],
+    "damage_reduction": { "all": 25, "cut": 45, "stab": 45 }
+  }
+]

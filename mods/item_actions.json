@@ -1,0 +1,7 @@
+[
+  {
+    "type": "item_action",
+    "id": "repair_warp_obsidian",
+    "name": { "str": "修復 (転移黒曜石)" }
+  }
+]

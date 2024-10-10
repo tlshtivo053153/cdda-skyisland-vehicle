@@ -1,0 +1,114 @@
+[
+  {
+    "copy-from": "wheel_mount_medium",
+    "id": "warp_wheel_mount_medium",
+    "type": "vehicle_part",
+    "name": { "str": "転移ホイールハブ" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "wheel_mount_medium_steerable",
+    "id": "warp_wheel_mount_medium_steerable",
+    "type": "vehicle_part",
+    "name": { "str": "転移ホイールハブ(転舵輪)" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "wheel_mount_heavy",
+    "id": "warp_wheel_mount_heavy",
+    "type": "vehicle_part",
+    "name": { "str": "転移大型ホイールハブ" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "wheel_mount_heavy_steerable",
+    "id": "warp_wheel_mount_heavy_steerable",
+    "type": "vehicle_part",
+    "name": { "str": "転移大型ホイールハブ(転舵輪)" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "wheel",
+    "id": "warp_wheel",
+    "type": "vehicle_part",
+    "name": { "str": "転移ホイール" },
+    "item": "warp_wheel_wide",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "wheel_armor",
+    "id": "warp_wheel_armor",
+    "type": "vehicle_part",
+    "name": { "str": "転移装甲ホイール" },
+    "item": "warp_wheel_wide",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 2 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "copy-from": "wheel_wide_or",
+    "id": "warp_wheel_wide_or",
+    "type": "vehicle_part",
+    "name": { "str": "転移オフロードホイール" },
+    "item": "warp_wheel_wide",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  }
+]

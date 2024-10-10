@@ -1,0 +1,37 @@
+[
+  {
+    "abstract": "warp_frame_abstract",
+    "type": "vehicle_part",
+    "copy-from": "frame_abstract",
+    "name": { "str": "転移フレーム" },
+    "durability": 200,
+    "description": "折り畳むことができる転移黒曜石のフレームです。",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    },
+    "damage_reduction": { "all": 20 }
+  },
+  {
+    "id": "warp_frame",
+    "type": "vehicle_part",
+    "copy-from": "warp_frame_abstract",
+    "item": "warp_frame",
+    "looks_like": "frame"
+  },
+  {
+    "id": "reinforced_warp_frame",
+    "type": "vehicle_part",
+    "copy-from": "warp_frame_abstract",
+    "name": { "str": "強化転移フレーム" },
+    "item": "reinforced_warp_frame",
+    "looks_like": "hdframe",
+    "durability": 1000,
+    "damage_reduction": { "all": 50 }
+  }
+]

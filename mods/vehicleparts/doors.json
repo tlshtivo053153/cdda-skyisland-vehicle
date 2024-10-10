@@ -1,0 +1,214 @@
+[
+  {
+    "id": "warp_door",
+    "copy-from": "door",
+    "type": "vehicle_part",
+    "looks_like": "t_door_metal_c",
+    "name": { "str": "転移ドア" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_door_opaque",
+    "copy-from": "door_opaque",
+    "name": { "str": "転移不透明ドア" },
+    "type": "vehicle_part",
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_hddoor",
+    "copy-from": "hddoor",
+    "name": { "str": "転移ドア(高耐久)" },
+    "type": "vehicle_part",
+    "item": "reinforced_warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_hddoor_opaque",
+    "copy-from": "hddoor_opaque",
+    "type": "vehicle_part",
+    "looks_like": "door_opaque",
+    "name": { "str": "転移不透明ドア(高耐久)" },
+    "item": "reinforced_warp_frame",
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_door_internal",
+    "copy-from": "door_internal",
+    "name": { "str": "転移内部ドア" },
+    "type": "vehicle_part",
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_hatch",
+    "copy-from": "hatch",
+    "type": "vehicle_part",
+    "name": { "str": "転移ハッチ" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_hatch_opaque",
+    "copy-from": "hatch_opaque",
+    "looks_like": "door_opaque",
+    "name": { "str": "転移不透明ハッチ" },
+    "type": "vehicle_part",
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_hdhatch",
+    "copy-from": "hdhatch",
+    "name": { "str": "転移ハッチ(高耐久)" },
+    "type": "vehicle_part",
+    "item": "reinforced_warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_hdhatch_opaque",
+    "copy-from": "hdhatch_opaque",
+    "looks_like": "hatch_opaque",
+    "name": { "str": "転移不透明ハッチ(高耐久)" },
+    "type": "vehicle_part",
+    "item": "reinforced_warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "warp_door_trunk",
+    "copy-from": "door_trunk",
+    "name": { "str": "転移トランクドア" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_hddoor_trunk",
+    "copy-from": "hddoor_trunk",
+    "type": "vehicle_part",
+    "name": { "str": "転移トランクドア(高耐久)" },
+    "item": "reinforced_warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_door_shutter",
+    "copy-from": "door_shutter",
+    "type": "vehicle_part",
+    "name": { "str": "転移シャッター" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_door_sliding",
+    "copy-from": "door_sliding",
+    "type": "vehicle_part",
+    "name": { "str": "転移スライドドア" },
+    "looks_like": "door",
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  }
+]

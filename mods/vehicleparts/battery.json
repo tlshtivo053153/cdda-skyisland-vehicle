@@ -1,0 +1,20 @@
+[
+  {
+    "id": "warp_battery_car",
+    "type": "vehicle_part",
+    "copy-from": "battery_car",
+    "name": { "str": "転移電池" },
+    "item": "warp_battery_car",
+    "durability": 1000,
+    "description": "転移電池の説明",
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "breaks_into": [ ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "warp_aisle_lights",
+    "copy-from": "aisle_lights",
+    "type": "vehicle_part",
+    "name": { "str": "転移通路灯" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_floodlight",
+    "copy-from": "floodlight",
+    "type": "vehicle_part",
+    "name": { "str": "転移投光照明" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_directed_floodlight",
+    "copy-from": "directed_floodlight",
+    "type": "vehicle_part",
+    "name": { "str": "転移指向性投光照明" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_headlight",
+    "copy-from": "headlight",
+    "type": "vehicle_part",
+    "name": { "str": "転移ヘッドライト" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_motorcycle_headlight",
+    "copy-from": "motorcycle_headlight",
+    "type": "vehicle_part",
+    "name": { "str": "転移ヘッドライト(バイク)" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_wide_headlight",
+    "copy-from": "wide_headlight",
+    "type": "vehicle_part",
+    "name": { "str": "転移広角ヘッドライト" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_headlight_reinforced",
+    "copy-from": "headlight_reinforced",
+    "type": "vehicle_part",
+    "name": { "str": "転移強化ヘッドライト" },
+    "item": "reinforced_warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_wide_headlight_reinforced",
+    "copy-from": "wide_headlight_reinforced",
+    "type": "vehicle_part",
+    "name": { "str": "転移強化広角ヘッドライト" },
+    "item": "reinforced_warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_light_blue",
+    "copy-from": "light_blue",
+    "type": "vehicle_part",
+    "name": { "str": "転移ブルーライト" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  },
+  {
+    "id": "warp_light_red",
+    "copy-from": "light_red",
+    "type": "vehicle_part",
+    "name": { "str": "転移レッドライト" },
+    "item": "warp_frame",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_CRAFT_WARP_WELDER",
+    "effect": [
+      { "u_learn_recipe": "warp_fuel_bunker" },
+      { "u_learn_recipe": "warp_battery_car" },
+      { "u_learn_recipe": "warp_frame" },
+      { "u_learn_recipe": "reinforced_warp_frame" },
+      { "u_learn_recipe": "warp_wheel_wide" },
+      { "u_learn_recipe": "warp_coal" },
+      { "u_learn_recipe": "warp_55gal_drum" }
+    ]
+  }
+]

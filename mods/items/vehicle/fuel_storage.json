@@ -1,0 +1,20 @@
+[
+  {
+    "id": "warp_fuel_bunker",
+    "type": "MAGAZINE",
+    "name": { "str": "転移燃料容器" },
+    "description": "転移燃料を入れる容器です。",
+    "symbol": "]",
+    "color": "white",
+    "looks_like": "cargo_rack",
+    "material": [ "warp_obsidian" ],
+    "category": "veh_parts",
+    "weight": "1 g",
+    "volume": "1 L",
+    "capacity": 2000,
+    "ammo_type": [ "warp_coal" ],
+    "price": "0 USD",
+    "price_postapoc": "0 USD",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "warp_coal": 2000 } }]
+  }
+]

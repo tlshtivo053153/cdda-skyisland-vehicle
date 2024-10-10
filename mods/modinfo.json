@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "skyisland_vehicle",
+    "name": "空島車両",
+    "authors": [ "tlshtivo053153" ],
+    "description": "スカイアイランドに車両パーツを追加します。",
+    "category": "misc_additions",
+    "dependencies": [ "dda" , "skyisland"]
+  }
+]

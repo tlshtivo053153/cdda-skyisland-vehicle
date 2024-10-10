@@ -1,0 +1,83 @@
+[
+  {
+    "abstract": "warp_engine",
+    "copy-from": "engine_combustion",
+    "type": "vehicle_part",
+    "fuel_type": "warp_coal",
+    "fuel_options": [ "warp_coal" ],
+    "m2c": 65,
+    "description": "転移フレームで作ったエンジンです。",
+    "breaks_into": [ ],
+    "folded_volume": "1 ml",
+    "folding_time": "0 seconds",
+    "unfolding_time": "0 seconds"
+  },
+  {
+    "id": "warp_engine_1",
+    "copy-from": "warp_engine",
+    "name": { "str": "転移エンジン レベル1" },
+    "type": "vehicle_part",
+    "item": "warp_frame",
+    "description": "6気筒エンジンと同じ出力を持つ転移フレームで作ったエンジンです。",
+    "durability": 1000,
+    "power": "223800 W",
+    "energy_consumption": "559500 W",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    },
+    "damage_reduction": { "all": 100 }
+  },
+  {
+    "id": "warp_engine_2",
+    "copy-from": "warp_engine",
+    "name": { "str": "転移エンジン レベル2" },
+    "type": "vehicle_part",
+    "item": "warp_frame",
+    "description": "12気筒エンジンと同じ出力を持つ転移フレームで作ったエンジンです。",
+    "durability": 2000,
+    "power": "447600 W",
+    "energy_consumption": "1119000 W",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 3 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    },
+    "damage_reduction": { "all": 150 }
+  },
+  {
+    "id": "warp_engine_3",
+    "copy-from": "warp_engine",
+    "name": { "str": "転移エンジン レベル3" },
+    "type": "vehicle_part",
+    "item": "warp_frame",
+    "description": "1350馬力のエンジンと同じ出力を持つ転移フレームで作ったエンジンです。",
+    "durability": 3000,
+    "power": "1006695 W",
+    "energy_consumption": "4026780 W",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 10 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    },
+    "damage_reduction": { "all": 200 }
+  },
+  {
+    "id": "warp_engine_4",
+    "copy-from": "warp_engine",
+    "name": { "str": "転移エンジン レベル4" },
+    "type": "vehicle_part",
+    "item": "warp_frame",
+    "description": "6000馬力のエンジンと同じ出力を持つ転移フレームで作ったエンジンです。",
+    "durability": 4000,
+    "power": "4474199 W",
+    "energy_consumption": "17896796 W",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "vehicle_warp_install", 20 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [  ] },
+      "repair": { "skills": [ [ "mechanics", 0 ] ], "time": "1 s", "using": [ [ "repair_warp_obsidian", 1 ] ] }
+    },
+    "damage_reduction": { "all": 250 }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "warp_frame",
+    "name": { "str": "転移フレーム(折畳)" },
+    "description": "黒曜石に似た素材でできた軽量なフレームです。触れて念じることで形を自在に変えることができます。",
+    "weight": "1 g",
+    "to_hit": -3,
+    "color": "light_gray",
+    "symbol": "]",
+    "material": [ "warp_obsidian" ],
+    "volume": "1 ml",
+    "category": "veh_parts",
+    "price": "0 USD",
+    "price_postapoc": "0 USD"
+  },
+  {
+    "type": "GENERIC",
+    "copy-from": "warp_frame",
+    "id": "reinforced_warp_frame",
+    "name": { "str": "強化転移フレーム(折畳)" },
+    "description": "黒曜石に似た素材でできた丈夫で軽量なフレームです。触れて念じることで形を自在に変えることができます。"
+  }
+]

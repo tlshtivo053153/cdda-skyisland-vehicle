@@ -1,0 +1,20 @@
+[
+  {
+    "id": "warp_battery_car",
+    "copy-from": "battery_car",
+    "type": "MAGAZINE",
+    "name": { "str": "転移電池", "str_pl": "転移電池" },
+    "description": "黒曜石のような素材でできた電池です。車両に溶接することができます。",
+    "weight": "1 g",
+    "volume": "50 L",
+    "price": "0 USD",
+    "price_postapoc": "0 USD",
+    "material": [ "warp_obsidian" ],
+    "symbol": ":",
+    "color": "light_cyan",
+    "ammo_type": [ "battery" ],
+    "capacity": 100000,
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD", "RECHARGE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100000 } } ]
+  }
+]

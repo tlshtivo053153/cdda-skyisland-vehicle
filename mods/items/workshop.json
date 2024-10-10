@@ -1,0 +1,32 @@
+[
+  {
+    "id": "warp_welder",
+    "type": "TOOL",
+    "name": { "str": "転移溶接機" },
+    "description": "黒曜石のような素材でできた溶接機です。動力と修復材料に転移燃料が必要です。",
+    "weight": "50 kg",
+    "volume": "1 L",
+    "price": "0 USD",
+    "price_postapoc": "0 USD",
+    "to_hit": { "grip": "solid", "length": "short", "surface": "any", "balance": "neutral" },
+    "material": [ "warp_obsidian" ],
+    "symbol": ";",
+    "color": "red",
+    "ammo": [ "warp_coal" ],
+    "charges_per_use": 10,
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_warp_obsidian",
+        "materials": [ "warp_obsidian" ],
+        "skill": "survival",
+        "tool_quality": 10,
+        "cost_scaling": 0.1,
+        "move_cost": 500
+      }
+    ],
+    "flags": [ "ALLOWS_REMOTE_USE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "warp_coal": 2000 } }],
+    "melee_damage": { "bash": 1 }
+  }
+]

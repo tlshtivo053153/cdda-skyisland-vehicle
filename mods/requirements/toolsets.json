@@ -1,0 +1,14 @@
+[
+  {
+    "id": "repair_warp_obsidian",
+    "type": "requirement",
+    "tools": [ [ [ "warp_welder", 10 ] ] ],
+    "components": [ [ [ "warp_coal", 10 ] ] ]
+  },
+  {
+    "id": "vehicle_warp_install",
+    "type": "requirement",
+    "tools": [  ],
+    "components": [ [ [ "reinforced_warp_frame", 1 ] ] ]
+  }
+]

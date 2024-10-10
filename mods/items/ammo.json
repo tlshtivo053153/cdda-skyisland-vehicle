@@ -1,0 +1,20 @@
+[
+  {
+    "type": "AMMO",
+    "id": "warp_coal",
+    "category": "spare_parts",
+    "price": "0 cent",
+    "price_postapoc": "0 cent",
+    "name": { "str_sp": "転移燃料" },
+    "symbol": "=",
+    "color": "dark_gray",
+    "description": "黒曜石のような素材でできた燃料です。見た目は紫色に輝く石炭のようですが重さを感じないぐらい軽いです。",
+    "material": [ "warp_coal" ],
+    "phase": "solid",
+    "volume": "1 ml",
+    "weight": "1 mg",
+    "ammo_type": "warp_coal",
+    "count": 1000,
+    "stack_size": 200
+  }
+]
